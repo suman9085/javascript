@@ -1,0 +1,14 @@
+/* body {
+  text-align: center;
+} */
+.model {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: none;
+  border: 1px solid green;
+  background-color: #fcfcfc;
+  width: 50%;
+  margin-left: 25%;
+}
