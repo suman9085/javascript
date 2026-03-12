@@ -81,11 +81,14 @@
 // console.log(result);
 
 function change2(srt){
-    let ev = ""
+    // let ev = ""
     for(i = srt.length-1;i>=0;i--){
         // ev += srt[i] 
         //console.log(ev)
-        console.log(srt[i])
+   const ev =   srt.split("")
+    ev = ev.reverse()
+    ev = ev.join()
+        console.log(ev)
     }
     return ev
 }
